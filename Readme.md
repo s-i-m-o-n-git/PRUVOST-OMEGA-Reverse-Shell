@@ -1,4 +1,4 @@
-# PRUVOST-OMEGA Reverse Shell
+# PRUVOST-OMEGA Reverse Shell - NOT WORKING
 
 **PRUVOST-OMEGA** est une interface de contrôle d’un reverse shell multiplateforme (Windows/Linux) avec interface graphique en **C++ / ImGui**. Elle permet de recevoir et interagir avec des machines compromises via une console distante (type terminal), le tout dans une interface fluide et interactive.
 
